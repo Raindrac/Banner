@@ -35,7 +35,7 @@ I chose to append `grub_class bluefin` and `grub_class bazzite` on my own instea
 If you're dual booting like me, "Switch to Bazzite" and "Switch to Bluefin" buttons have to be created manually. This is because the specific implementation depends on the UUID of your partitions, whether you have them installed to different partitions on the same drive, or whetheryou have them installed to different drives entirely. Look up documentation for GRUB2's `menuentry` command to understand how this is done. I won't provide help with this, sorry.
 
 ### Example menuentry Command
-To provide some guidance with adding those entries for people like me who installed Bluefin and Bazzite onto the same drive and set up a dual boot, I'll make an example out of the command that I created to switch to Bazzite. **Replace the UUID after `set=root` with the UUID of your own Bazzite boot partition or this won't work.**
+To provide some guidance with adding those entries for people like me who installed Bluefin and Bazzite onto the same drive and set up a dual boot, I'll make an example out of the command that I created to switch to Bazzite. **Replace the UUID after `set=root` with the UUID of your own Bazzite boot partition or this won't work. This code snippet is intended only for dual booting Bazzite and Bluefin on the same drive, each with their own EFI and boot partitions.**
 
 ```
 menuentry "Switch to Bazzite" --class bazzite --class linux --class os --id go-bazzite {
