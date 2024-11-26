@@ -48,5 +48,6 @@ menuentry "Switch to Bazzite" --class bazzite --class linux --class os --id go-b
 ```
 
 # Setting Up A Dual Boot
-If you want to know how to setup a dual boot of Bazzite and Bluefin, follow this guide: https://docs.bazzite.gg/General/Installation_Guide/dual_boot_setup_guide/
-It worked perfectly for me. Just keep in mind that Bazzite and Bluefin need to be installed on different partitions with their own GRUB; the guide explains this, but I really want to make that clear. It's important.
+If you want to know how to setup a dual boot of Bluefin and Bazzite, follow this guide: https://docs.bazzite.gg/General/Installation_Guide/dual_boot_setup_guide/
+
+It worked perfectly for me. Just keep in mind that Bluefin and Bazzite need to be installed on different partitions with their own GRUB; the guide explains this, but I really want to make that clear. It's important.
