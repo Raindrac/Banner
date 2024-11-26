@@ -31,7 +31,7 @@ If you'd like to use that script, replace all instances of the word "fedora" in 
 
 I chose to append `grub_class bluefin` and `grub_class bazzite` on my own instead of using a script, as it's not that hard to do. You just have to run `sudo nano` and then paste it at the end of each file.
 
-## The Dual Boot
+## Switching between Bluefin & Bazzite
 If you're dual booting like me, "Switch to Bazzite" and "Switch to Bluefin" buttons have to be created manually. This is because the specific implementation depends on the UUID of your partitions, whether you have them installed to different partitions on the same drive, and/or whether you have them installed to different drives entirely. Look up documentation for GRUB2's `menuentry` command to understand how this is done. I won't provide help with this, sorry.
 
 ### Example menuentry Command
@@ -46,3 +46,7 @@ menuentry "Switch to Bazzite" --class bazzite --class linux --class os --id go-b
         chainloader /EFI/fedora/grubx64.efi
 }
 ```
+
+# Setting Up A Dual Boot
+If you want to know how to setup a dual boot of Bazzite and Bluefin, follow this guide: https://docs.bazzite.gg/General/Installation_Guide/dual_boot_setup_guide/
+It worked perfectly for me. Just keep in mind that Bazzite and Bluefin need to be installed on different partitions with their own GRUB; the guide explains this, but I really want to make that clear. It's important.
