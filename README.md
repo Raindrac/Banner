@@ -10,7 +10,7 @@ Installing a GRUB theme on a Universal Blue system is easy. Just run `sudo nano 
 ```
 set theme="/boot/grub2/themes/<theme>/theme.txt"
 ```
-Replace <theme> with the folder name of the theme you're installing. For my themes here, it'd be replaced with `banner-bazzite` or `banner-bluefin`.
+Replace `<theme>` with the folder name of the theme you're installing. For my themes here, it'd be replaced with `banner-bazzite` or `banner-bluefin`.
 
 You can add other variables to this script as well. For my own configuration, I added:
 ```
