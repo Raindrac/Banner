@@ -2,7 +2,7 @@ This is a custom GRUB theme using Argon as the base, and icons taken from Hyperf
 
 The backgrounds of Argon were replaced by a single background for both Bluefin and Bazzite, created by myself. The raw .xcf files are included. Additionally, I added a new icon for both Bluefin and Bazzite.
 
-This theme was made for my own personal use, and for that reason the resolution values in them `theme.txt` of each respective theme are intended for my 1440p monitor. You will likely want to tune it yourself. The background might also look strange on other resolutions, as I haven't tested it. If it does, you can resize it in an image editor.
+This theme was made for my own personal use, and for that reason the resolution values in the `theme.txt` of each respective theme are intended for my 1440p monitor. You will likely want to tune it yourself. The background might also look strange on other resolutions, as I haven't tested it. If it does, you can resize it in an image editor.
 
 # How I Did It
 ## Installing It
