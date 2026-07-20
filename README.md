@@ -8,7 +8,7 @@ This theme was made for my own personal use, and for that reason the resolution 
 **System updates by `ostree` appear to remove appended `grub_class` values, causing Bazzite & Bluefin boot icons to vanish.** They have to be manually added back after every update. An automatic startup could likely be used to do this for you, but I have yet to create one yet as I have moved to another distribution and no longer dual boot.
 
 And as pointed out by @crawlserv:
-> **Current GRUB2 versions don't support/sign *.pf2 fonts in Secure Boot by default, which leads to a blank screen on boot, breaking the system unless Secure Boot is disabled via the BIOS.**
+> **Current GRUB2 versions don't support/sign \*.pf2 fonts in Secure Boot by default, which leads to a blank screen on boot, breaking the system unless Secure Boot is disabled via the BIOS.**
 > 
 > A relatively easy workaround is to not use the custom font provided by the theme:
 > - remove the lines `item_font = "Display Bold 24"` and `font = "Display Bold 24"` from `theme.txt`
